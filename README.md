@@ -1,2 +1,7 @@
 # BrainBlocks
 BrainBlocks educational game demo
+
+- name: 'notify vercel'
+  uses: 'vercel/repository-dispatch/actions/status@v1'
+  with:
+    name: Vercel - brain-blocks: lint
